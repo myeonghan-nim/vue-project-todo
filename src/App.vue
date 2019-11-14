@@ -1,8 +1,11 @@
 <template>
   <div id="app">
+
     <img alt="Vue logo" src="./assets/logo.png">
+
     <LoginForm/>
     <TodoList/>
+
   </div>
 </template>
 
@@ -12,6 +15,7 @@ import LoginForm from './components/LoginForm.vue'
 
 export default {
   name: 'app',
+  
   components: {
     TodoList,
     LoginForm
