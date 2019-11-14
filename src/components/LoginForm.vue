@@ -1,11 +1,12 @@
 <template>
   <div>
+
     <form action="">
       ID : <input type="text" v-model="userId">
-      <p>{{userId}}</p>
       Password : <input type="text">
       <input type="submit" value="login">
     </form>
+
   </div>
 </template>
 
@@ -15,7 +16,7 @@ export default {
     return {
       userId: '',
     }
-  },
+  }
 }
 </script>
 
