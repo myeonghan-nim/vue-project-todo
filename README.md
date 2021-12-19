@@ -1,4 +1,4 @@
-# README
+# Project: TO-DO
 
 ## Project setup
 
@@ -27,36 +27,3 @@ $ npm run lint
 ### Customize configuration
 
 See [Configuration Reference](https://cli.vuejs.org/config/).
-
-## Todo SPA
-
-```vue
-<template>
-  <div class="todo-list">
-  </div>
-</template>
-
-<script>
-export default {
-  props: [],
-
-  data: function() {
-    return {}
-  },
-
-  methods: {
-    addTodo: function() {}
-    },
-
-    removeTodo: function(todoID) {}
-  }
-}
-</script>
-
-<style>
-  .todo-list {
-    display: inline-block;
-    width: 33%;
-  }
-</style>
-```
