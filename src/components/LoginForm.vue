@@ -1,12 +1,10 @@
 <template>
   <div>
-
     <form action="">
-      ID : <input type="text" v-model="userId">
-      Password : <input type="text">
-      <input type="submit" value="login">
+      ID: <input type="text" v-model="userId">
+      PW: <input type="text">
+      <input type="submit" value="Login">
     </form>
-
   </div>
 </template>
 
@@ -21,5 +19,4 @@ export default {
 </script>
 
 <style>
-
 </style>
